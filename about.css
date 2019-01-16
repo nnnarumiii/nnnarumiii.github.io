@@ -1,0 +1,183 @@
+  .backImage{
+    background-image: url(media/room.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .about{
+    margin-top: 3.5em;
+    margin-bottom: 2.5em;
+    padding-top: 3.75em;
+    padding-bottom: 4em;
+  }
+   
+  .box{
+    margin-top: 3.75em;
+    display: flex;
+    /* background: rgba(238, 240, 124, 0.527); */
+  }
+  
+  .boxContent{
+    border: 1px solid rgb(100, 100, 100);
+    background: rgb(255, 255, 255);
+    padding: 3.75em 2.5em;
+    margin: 1em;
+    opacity: 0.96;
+    width: 60%;
+  }
+  
+  .box dt, h3{
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1.125em;
+    /* border: #111 solid 1px; */
+  }
+  
+  .subTitleSmall{
+    font-weight: normal;
+    font-size: 0.75em;
+    margin-left: 0.75em;
+  }
+  
+  .box dd{
+    margin: 0 3em;
+    font-size: 0.875em;
+    /* border: #111 solid 1px; */
+  }
+
+  /* ---------- 画像 ---------- */
+  .imageAbout{
+    width: 40%;
+    margin: 1em;
+    border: 1px solid rgb(100, 100, 100);
+  }
+
+  .imageMe{
+    background-image: url(media/me.jpg);
+    background-size: 92%;
+    background-position: 40% 45%;
+  }
+
+  .imageBiography{
+    background-image: url(media/walk.jpg);
+    background-size: cover;
+    background-position: 90% 80%
+  }
+
+  .imageLikes{
+    background-image: url(media/synth.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: 60% 50%;
+  }
+
+  /* ---------- /画像 ---------- */
+
+  /* ---------- /likesのコンテンツ ---------- */
+    .likes{
+      margin-top: 3em;
+      margin-left: 1.5em;
+    }
+  
+    .likes dt{
+      margin: 1.5em 0 0;
+    }
+    
+    .likes dd{
+      margin-left: 1.5em
+    }
+  /* ---------- /likesのコンテンツ ---------- */
+
+  /* ---------- /メール ---------- */
+
+    .mail .boxContent {
+      width: 100%;
+    }
+
+    .mail dt{
+      margin-bottom: 0;
+    }
+
+    .mail dd{
+      text-align: center;
+      letter-spacing: 0.05em;
+      font-size: 1.125em;
+      margin: 0
+    }
+  /* ---------- /メール ---------- */
+
+  
+    
+    /* ----- js -----*/
+    .fade{
+      opacity: 0;
+      transition: all .5s ease;
+    }
+  
+    .fade.show{
+      opacity: 1;
+      transform: none;
+    }
+    .fade--up {
+      transform: translate(0, 100px);
+    }
+    /* ----- /js ----- */
+  
+    /*  */
+    /* media */
+    /*  */
+    @media screen and (max-width:640px){
+      .imageAbout{
+        display: none;
+      }
+
+      .boxContent{
+        padding: 2em 0em;
+        margin: 0 0.5em;
+        width: 100%;
+      }
+
+      .box dt, h3{
+        text-align: center;
+        margin-bottom: 0em;
+      }
+
+      .likes{
+        margin-top: 3em;
+        margin-left: 0em;
+      }
+
+      .likes dd{
+        padding-left: 1em
+      }
+
+    /* ---------- /画像 ---------- */
+      .imageAboutMobile{
+        width: 90%;
+        height: 240px;
+        margin: 2em auto;
+      }
+
+      .imageMeMobile{
+        background-image: url(media/me.jpg);
+        background-size: 80%;
+        background-position: 50% 45%;
+      }
+    
+      .imageBiographyMobile{
+        background-image: url(media/walk2.jpg);
+        background-size: cover;
+        background-position: 60% 50%
+      }
+    
+      .imageLikesMobile{
+        background-image: url(media/synth.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position: 60% 50%;
+      }
+    /* ---------- /画像 ---------- */
+
+    }

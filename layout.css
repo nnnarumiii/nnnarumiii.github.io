@@ -1,0 +1,167 @@
+html{
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 2.2;
+    font-size: 16px;
+  }
+
+  h1,h2,h3{
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  a:hover{
+    /* background-color: rgb(255, 250, 0); */
+    background-color: rgb(255, 118, 118);
+    padding: 0.3em 0.75em;
+  }
+  
+  .titleColor{
+    background-color: rgb(255, 97, 97);
+    padding: 0.2em 0.5em;
+    display: inline-block;
+  }
+  .titleColor2{
+    /* background-color: rgb(240, 235, 0); */
+    background-color: rgb(250, 90, 90);
+  }
+  
+  .hide{
+    width: 1px;
+    height: 1px;
+    display: absolute;
+    overflow: hidden;
+  }
+
+  /* ================= ナビゲーション ================= */
+  header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 1em;
+    z-index: 10;
+  }
+
+  nav{
+    padding-top: 0.625em;
+    max-width: 1480px;
+    /* border:1px solid #111; */
+    /* position: relative; */
+  }
+  
+  
+  nav ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
+    /* background: #aaa; */
+  }
+  
+  nav li{
+    display: inline-block;
+    width: 6.25em;
+    font-size: 16px;
+    /* border: 1px solid #111; */
+  }
+  
+  /* ================= /ナビゲーション ================= */
+
+  .title{
+    text-align: center;
+  }
+  
+  .title h2{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+
+  /* index */
+  /* ----- プロフィール ----- */
+  .profile{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .profile section{
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  /* ----- /プロフィール ----- */
+  /* /index */
+
+
+  /* about */
+  .about{
+    width: 100%;
+  }
+
+  .about section{
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .box{
+    max-width: 980px;
+  }
+  /* /about */
+
+
+  /* skills */
+  .skills{
+    width: 100%;
+  }
+
+  .skills section{
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  /* /skills */
+
+  /* works */
+  .works{
+    width: 100%;
+  }
+
+  .works section{
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  /* /works */
+
+  /*  */
+  /* media */
+  /*  */
+  @media screen and (max-width:640px){
+    body{
+      line-height: 2.2;
+    }
+    header{
+      padding-left: 0;
+      background-color: #fff;
+      opacity: 0.8;
+    }
+    nav{
+      padding: 0.5em 0;
+      width: 100%;
+      text-align: center;
+    }
+    nav li{
+      font-size: 14px;
+    }
+  }

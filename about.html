@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="about.css">
+  <title>about</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Top</a></li>
+        <li>
+          <h1><a href="about.html">About</a></h1>
+        </li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="works.html">Works</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="backImage">
+
+    <article class="about">
+      <div class="title">
+        <h2 class="titleColor">About</h2>
+      </div>
+      <!-- /title -->
+
+      <section>
+        <div class="contentAbout">
+
+          <div class="box fade fade--up">
+            <div class="imageAbout imageMe"></div>
+            <dl class="boxContent">
+              <dt class="subTitle">
+                <h3>- Me -<span class="subTitleSmall">私について</span></h3>
+              </dt>
+              <div class="imageAboutMobile imageMeMobile"></div>
+              <dd>昔から楽器を弾いたり、工作したりと、手先を動かすことが得意です。一月前の自分より少しでも前に進んでいることを目標に生きています。<br>考えすぎて立ち止まってしまうこともありますが、様々な角度から物事を見れる人間でありたいと思っています。いろいろな人の考えに触れることが好きなので、人生を通してたくさんの方と出会いたいです。</dd>
+            </dl>
+          </div>
+          <!-- /box -->
+
+          <div class="box fade fade--up">
+            <dl class="boxContent">
+              <dt class="subTitle">
+                <h3>- Biography -<span class="subTitleSmall">経歴</span></h3>
+              </dt>
+              <div class="imageAboutMobile imageBiographyMobile"></div>
+              <dd>大学卒業後、営業職として大阪の広告系企業に就職しましたが、以前から興味のあった、ものづくりに携わる仕事が諦め切れず、WEBの勉強を始めました。<br>写真や絵画、新しいものに触れることが好きな自分にとって、好きなものが全て詰まっているんじゃないかと感じています。</dd>
+              <dd>現在は楽天市場やyahooショッピングなどの複数のECモールに出店している企業で、楽天・アマゾン店舗の店長をしています。</dd>
+            </dl>
+            <div class="imageAbout imageBiography"></div>
+          </div>
+          <!-- /box -->
+
+          <div class="box fade fade--up">
+            <div class="imageAbout imageLikes"></div>
+            <dl class="boxContent">
+              <dt class="subTitle">
+                <h3>- Likes -<span class="subTitleSmall">趣味</span></h3>
+              </dt>
+              <div class="imageAboutMobile imageLikesMobile"></div>
+              <dd>映画・音楽・読書<br>ベタですが、今の自分を構成しているものは基本的にこの３つです。</dd>
+
+              <dl class="likes">
+                <dt class="categoryLikes">映画</dt>
+                <dd>洋画を中心に、ジャンルを問わず観ます。映画を観ている時が、いちばん気持ちの落ち着く瞬間です。観る人によって解釈が変わるような考えさせられる作品が好きです。情景描写が魅力的な作品は特に見入ってしまいます。昨年のお気に入りは
+                  "ラ・ラ・ランド"
+                  でした。</dd>
+
+                <dt class="categoryLikes">音楽</dt>
+                <dd>中学生の頃にoasisを聴いて以来、生活になくてはならないものです。その日の気分に合わせて、いろいろなジャンルを聴きます。最近DTMを始めたので、制作した曲をちょっとずつアップしたりもしています。</dd>
+
+                <dt class="categoryLikes">読書</dt>
+                <dd>毎日寝る前には必ず本を読みます。
+                  最近は、森見登美彦や村上春樹の小説を好んで読んでいます。主人公の理屈っぽいところが好きです。</dd>
+              </dl>
+              <!-- /likes -->
+            </dl>
+            <!-- /boxContent -->
+          </div>
+          <!-- /box -->
+
+
+          <div class="box mail fade fade--up">
+            <dl class="boxContent">
+              <dt class="subTitle">- Mail -</dt>
+              <dd>narumi.wakabayashi@gmail.com</dd>
+            </dl>
+          </div>
+          <!-- /box -->
+
+        </div>
+        <!-- /contentAbout -->
+
+      </section>
+    </article>
+
+  </div>
+  <!-- /backImage -->
+
+
+
+  <script type="text/javascript">
+    var scrollAnimationElm = document.querySelectorAll('.fade');
+    var scrollAnimationFunc = function () {
+      for (var i = 0; i < scrollAnimationElm.length; i++) {
+        var triggerMargin = 100;
+        if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+          scrollAnimationElm[i].classList.add('show');
+        }
+      }
+    }
+    window.addEventListener('load', scrollAnimationFunc);
+    window.addEventListener('scroll', scrollAnimationFunc);
+  </script>
+
+</body>
+
+</html>

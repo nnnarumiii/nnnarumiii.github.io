@@ -1,0 +1,161 @@
+  /* ================= トップイメージ ================= */
+.topImage{
+  width: 70%;
+  height: 100vh;
+  position: relative;
+  right: -30%;
+}
+  
+.topImage{
+  background-image: url(media/top1.JPG);
+  filter: brightness(110%);
+  background-position: center;
+  background-size: cover;
+}
+
+.topImage h1{
+  font-size: 4.5em;
+  position: absolute;
+  top: 20vh;
+  left:-25%;
+  color: rgb(210, 39, 39);
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+  /* ================= /トップイメージ ================= */
+
+  /* 矢印 */
+.arrow{
+    position: absolute;
+    bottom: 12%;
+    left: 20%;
+}
+
+.arrow span{
+  position: absolute;
+  /* top: -3.5em; */
+  /* left: 50%; */
+  /* width: 56px; */
+  height: 60px;
+  margin-left: -28px;
+  border: 1px solid #555;
+  /* border-radius: 100%; */
+  box-sizing: border-box;
+}
+
+.arrow span::after{
+  position: absolute;
+  top: 53px;
+  left: 50%;
+  content: '';
+  width: 12px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 2px solid #555;
+  /* border-bottom: 2px solid #666; */
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+/* /矢印 */
+
+.profile section{
+  padding: 5em 1em;
+  box-sizing: border-box;
+}
+
+.profile{
+  background: rgb(236, 236, 236);
+  text-align: center;
+}
+
+.contentProfile{
+  border: 1px solid #111;
+  padding: 2.5em;
+  letter-spacing: 0.025em;
+}
+
+.contentProfile h2{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  padding: 0.2em 0.5em 0;
+  border-bottom: 0.31em dotted rgb(255, 90, 90);
+}
+
+.contentProfile p{
+  font-weight: bold;
+  font-size: 1.12em;
+  line-height: 2
+}
+
+.contentProfile p:last-child{
+  font-weight: normal;
+  font-size: 0.86em;
+  margin-top: 2.5em;
+  margin-bottom: 0;
+  /* text-decoration-line: underline; */
+}
+
+
+/*  */
+/* media */
+/*  */
+@media screen and (max-width:480px){
+  .topImage{
+    height: 100vh;
+    width: 100%;
+    right: 0%;
+  }
+  
+  .topImage{
+    background-image: url(media/top1.JPG);
+    filter: brightness(110%);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .topImage h1{
+  font-size: 2.8em;
+  position: absolute;
+  top: 28vh;
+  top: 24vh;
+  /* top: 55vh; */
+  left:5%;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  /* padding: 0 0.5em 0 0.1em; */
+  }
+
+  .profile section{
+    padding: 5em 0.5em;
+    box-sizing: border-box;
+  }
+
+  .contentProfile h2{
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 0.2em 0 0;
+    border-bottom: 0.15em dotted rgb(255, 90, 90);
+    line-height: 1.5
+  }
+
+  .contentProfile{
+    padding: 2.5em 1em;
+    letter-spacing: 0.025em;
+  }
+
+  .arrow span{
+    border-left: 1px solid rgb(255, 255, 255);
+  }
+
+  .arrow span::after{
+    border-left: 1px solid rgb(255, 255, 255);
+  }
+
+
+
+
+}
