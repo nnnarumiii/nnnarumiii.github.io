@@ -26,15 +26,15 @@ body{
 }
 
 .boxImageTop{
-  background-image: url(media/screenTop2.png);
+  background-image: url(media/screenTop2.jpg);
 }
 
 .boxImageAbout{
-  background-image: url(media/screenAbout2.png);
+  background-image: url(media/screenAbout2.jpg);
 }
 
 .boxImageSkills{
-  background-image: url(media/screenSkills2.png);
+  background-image: url(media/screenSkills2.jpg);
 }
 
 .boxContent{
@@ -92,11 +92,8 @@ p{
   .boxContent{
     width: 100%;  
     border: 1px solid rgb(100, 100, 100);
-    padding: 3.75em 2.5em;
-    margin: 0em 1em;
-  }
-
-  .boxContent{
+    padding: 3.75em 2em;
+    margin: 0em 0.5em;
     text-align: center;
   }
 
