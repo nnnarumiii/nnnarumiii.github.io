@@ -35,7 +35,7 @@
 
   <article class="profile">
     <h2 class="hide">Profile</h2>
-    <section>
+    <section class="scroll">
       <div class="contentProfile">
         <h2>Narumi Wakabayashi</h2>
         <p>Since : 1994 / 04 / 06</p>
@@ -44,6 +44,22 @@
         <p>Age : 24</p>
         <p class="smallText">WEB関係の勉強・お仕事を始めて一年。<br>スキルアップを目指して転職活動中です。</p>
   </article>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    var mainContentScrollTop;
+
+    $(window).on('load', function () {
+      mainContentScrollTop = $('.scroll').offset().top;
+      console.log(mainContentScrollTop);
+    });
+
+    $('.arrow').on('click', function () {
+      $('html, body').animate({scrollTop:mainContentScrollTop}, 500);
+    });
+
+  </script>
 
 </body>
 
