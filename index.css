@@ -7,7 +7,7 @@
 }
   
 .topImage{
-  background-image: url(media/top1.JPG);
+  background-image: url(media/top1.jpg);
   filter: brightness(110%);
   background-position: center;
   background-size: cover;
