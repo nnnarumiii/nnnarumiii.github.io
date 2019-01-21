@@ -48,6 +48,7 @@
 
   .graph dt{
   margin-top: 1.25em;
+  font-style: italic;
   }
 
   .graph dd{
@@ -88,6 +89,10 @@
     /* margin-left: 0.5em; */
     text-align: center;
     font-weight: bold;
+    }
+
+    .box p{
+      margin: 0 2em;
     }
   
   

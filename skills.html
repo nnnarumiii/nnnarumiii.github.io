@@ -7,88 +7,91 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="skills.css">
   <link rel="stylesheet" href="layout.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:700,700i" rel="stylesheet">
   <title>skills</title>
 </head>
 
 <body>
-  
+
   <header>
-      <nav>
-          <ul>
-            <li><a href="index.html">Top</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><h1><a href="skills.html">Skills</a></h1></li>
-            <li><a href="works.html">Works</a></li>
-          </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Top</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <h1><a href="skills.html">Skills</a></h1>
+        </li>
+        <li><a href="works.html">Works</a></li>
+      </ul>
+    </nav>
   </header>
 
   <div class="backImage">
 
-  <article class="skills">
-    <div class="title">
-      <h2 class="titleColor">Skills</h2>
-    </div>
+    <article class="skills">
+      <div class="title">
+        <h2 class="titleColor">Skills</h2>
+      </div>
 
-    <section>
-      <div class="box">
-        <h3>Now</h3>
-        <div class="graph">
-          <dl>
-            <dt>HTML</dt>
-            <dd>
-              <div class="borderPercent1">70%</div>
-            </dd>
-            <dt>CSS</dt>
-            <dd>
-              <div class="borderPercent2">60%</div>
-            </dd>
-            <dt>JavaScript</dt>
-            <dd>
-              <div class="borderPercent3">20%</div>
-            </dd>
-            <dt>Photoshop</dt>
-            <dd>
-              <div class="borderPercent4">50%</div>
-            </dd>
-            <dt>Illustrator</dt>
-            <dd>
-              <div class="borderPercent5">50%</div>
-            </dd>
-          </dl>
+      <section>
+        <div class="box">
+          <h3 class="ont-custom">Now</h3>
+          <div class="graph">
+            <dl>
+              <dt class="font-custom">HTML</dt>
+              <dd>
+                <div class="borderPercent1">70%</div>
+              </dd>
+              <dt class="font-custom">CSS</dt>
+              <dd>
+                <div class="borderPercent2">60%</div>
+              </dd>
+              <dt class="font-custom">JavaScript</dt>
+              <dd>
+                <div class="borderPercent3">20%</div>
+              </dd>
+              <dt class="font-custom">Photoshop</dt>
+              <dd>
+                <div class="borderPercent4">50%</div>
+              </dd>
+              <dt class="font-custom">Illustrator</dt>
+              <dd>
+                <div class="borderPercent5">50%</div>
+              </dd>
+            </dl>
+          </div>
+          <!-- /graph -->
+
+          <p>コーディングソフトはVisual Studio Codeを使用しています。<br>最近やっとSassを知ったので、現在使い方を勉強中です。</p>
+
         </div>
-        <!-- /graph -->
+        <!-- /box -->
+      </section>
 
-        <p>コーディングソフトはVisual Studio Codeを使用しています。<br>最近やっとSassを知ったので、現在使い方を勉強中です。</p>
+      <section>
+        <div class="box">
+          <h3 class="font-custom">Next</h3>
+          <p>JavaScriptを使用した動的なデザインのスキルを向上とともに、コーディングに限らず、現場で求められることを幅広く学んでいきたいと考えています。また、複数の方々とコミュニケーションを取りながら制作をした経験がないため、そういった点においても経験値を高めていきたいです。</p>
+        </div>
+        <!-- /box -->
+      </section>
+    </article>
 
-      </div>
-      <!-- /box -->
-    </section>
-
-    <section>
-      <div class="box">
-        <h3>Next</h3>
-        <p>JavaScriptを使用した動的なデザインのスキルを向上とともに、コーディングに限らず、現場で求められることを幅広く学んでいきたいと考えています。また、複数の方々とコミュニケーションを取りながら制作をした経験がないため、そういった点においても経験値を高めていきたいです。</p>
-      </div>
-      <!-- /box -->
-    </section>
-  </article>
-
-</div>
-<!-- /backImage -->
+  </div>
+  <!-- /backImage -->
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script type="text/javascript">
-  $(function(){
-　　　$(".borderPercent1").animate({width:"70%"}, 1000,);
-　　　$(".borderPercent2").animate({width:"60%"}, 1000);
-　　　$(".borderPercent3").animate({width:"20%"}, 1000);
-　　　$(".borderPercent4").animate({width:"50%"}, 1000);
-　　　$(".borderPercent5").animate({width:"50%"}, 1000);
-　}); 
-</script>
+    $(function () {
+      $(".borderPercent1").animate({ width: "70%" }, 1000);
+      $(".borderPercent2").animate({ width: "60%" }, 1000);
+      $(".borderPercent3").animate({ width: "20%" }, 1000);
+      $(".borderPercent4").animate({ width: "50%" }, 1000);
+      $(".borderPercent5").animate({ width: "50%" }, 1000);
+    }); 
+  </script>
 </body>
 
 </html>

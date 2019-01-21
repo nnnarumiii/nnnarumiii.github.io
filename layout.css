@@ -45,6 +45,13 @@ body{
     overflow: hidden;
   }
 
+  .font-custom{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .font-custom2{
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
   /* ================= ナビゲーション ================= */
   header{
     width: 100%;

@@ -104,7 +104,7 @@
       text-align: center;
       letter-spacing: 0.05em;
       font-size: 1.125em;
-      margin: 0
+      margin: 0;
     }
   /* ---------- /メール ---------- */
 
@@ -144,13 +144,17 @@
         margin-bottom: 0em;
       }
 
+      .box dd{
+        margin: 0 2em;
+      }
+
       .likes{
         margin-top: 3em;
         margin-left: 0em;
       }
 
       .likes dd{
-        padding-left: 1em
+        padding-left: 1em;
       }
 
     /* ---------- /画像 ---------- */
