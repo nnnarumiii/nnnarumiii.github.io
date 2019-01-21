@@ -7,18 +7,6 @@
     position: relative;
   }
 
-  /* .backImage::before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.459);
-  } */
-
   .skills{
     margin-top: 3.5em;
     margin-bottom: 2.5em;
@@ -39,7 +27,6 @@
     font-weight: bold;
     margin-bottom: 1em;
     font-size: 1.125em;
-    /* border: #111 solid 1px; */
   }
 
   .graph{
