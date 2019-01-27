@@ -11,10 +11,10 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
   <title>portfolio</title>
   <style type="text/css">
-  h1{
-    font-family: 'Bad Script', cursive;
-    line-height: 1.5em;
-  }
+    h1 {
+      font-family: 'Bad Script', cursive;
+      line-height: 1.5em;
+    }
   </style>
 </head>
 
@@ -45,12 +45,19 @@
     <h2 class="hide">Profile</h2>
     <section class="scroll">
       <div class="contentProfile">
-        <h2 class="">Narumi Wakabayashi</h2>
+        <h2>Narumi Wakabayashi</h2>
         <p>Since : 1994 / 04 / 06</p>
         <p>Address : Osaka</p>
         <p>Gender : man</p>
         <p>Age : 24</p>
-        <p class="smallText">WEB関係の勉強・お仕事を始めて一年。<br>スキルアップを目指して転職活動中です。</p>
+
+        <div class="smallText">
+          <p>WEB関係の勉強・お仕事を始めて一年。<br>スキルアップを目指して転職活動中です。</p>
+
+          <p>Webを通して世界観や個性を表現するため、<br>論理的にデザインのできるクリエイターを目指しています。</p>
+        </div>
+
+      </div>
   </article>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -64,7 +71,7 @@
     });
 
     $('.arrow').on('click', function () {
-      $('html, body').animate({scrollTop:mainContentScrollTop}, 500);
+      $('html, body').animate({ scrollTop: mainContentScrollTop }, 500);
     });
 
   </script>

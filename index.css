@@ -111,12 +111,19 @@
   line-height: 2
 }
 
-.contentProfile p:last-child{
+/* .contentProfile p:last-child{
   font-weight: normal;
   font-size: 0.86em;
   margin-top: 2.5em;
   margin-bottom: 0;
-  /* text-decoration-line: underline; */
+  text-decoration-line: underline;
+} */
+
+ .smallText p{
+  font-weight: normal;
+  font-size: 0.86em;
+  margin-top: 1.5em;
+  margin-bottom: 0;
 }
 
 
