@@ -62,7 +62,7 @@ body{
     z-index: 10;
   }
 
-  nav{
+   .headNav{
     padding-top: 0.625em;
     max-width: 1480px;
     /* border:1px solid #111; */
@@ -70,7 +70,7 @@ body{
   }
   
   
-  nav ul{
+   .headNav ul{
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -79,11 +79,27 @@ body{
     /* background: #aaa; */
   }
   
-  nav li{
+   .headNav li{
     display: inline-block;
     width: 6.25em;
     font-size: 16px;
     /* border: 1px solid #111; */
+  }
+
+  .footerNav{
+    margin: 2.5em 0;
+  }
+
+  .footerNav ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .footerNav li{
+    display: inline-block;
+    width: 6.25em;
+    font-size: 16px;
   }
   
   /* ================= /ナビゲーション ================= */
@@ -163,12 +179,12 @@ body{
       background-color: #fff;
       opacity: 0.8;
     }
-    nav{
+    .headNav{
       padding: 0.5em 0;
       width: 100%;
       text-align: center;
     }
-    nav li{
+    .headNav li{
       font-size: 14px;
     }
   }
