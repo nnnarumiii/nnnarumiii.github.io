@@ -16,13 +16,13 @@ body{
     padding: 0;
   }
 
-  a{
+  .headNav a,.footerNav a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
   }
   
-  a:hover{
+  .headNav a:hover,.footerNav a:hover{
     /* background-color: rgb(255, 250, 0); */
     background-color: rgb(255, 118, 118);
     padding: 0.3em 0.75em;
@@ -68,8 +68,7 @@ body{
     /* border:1px solid #111; */
     /* position: relative; */
   }
-  
-  
+
    .headNav ul{
     margin: 0;
     padding: 0;
@@ -87,7 +86,7 @@ body{
   }
 
   .footerNav{
-    margin: 2.5em 0;
+    margin: 2.5em 0 0.625em 0;
   }
 
   .footerNav ul{
@@ -100,6 +99,31 @@ body{
     display: inline-block;
     width: 6.25em;
     font-size: 16px;
+  }
+
+  .nextPage{
+    text-align: center;
+    width: 12.5em;
+    margin: 2.5em auto;
+  }
+
+  .nextPage a{
+    text-decoration: none;
+    color: #000;
+    border: #000 solid 1px;
+    display: block;
+    padding:0.5em;
+    font-weight: bold;
+  }
+
+  .nextPageSubtitle{
+    font-weight: normal;
+    display: block;
+    font-size: 0.86em;
+  }
+
+  .nextPage a:hover{
+    background-color: rgb(255, 118, 118);
   }
   
   /* ================= /ナビゲーション ================= */

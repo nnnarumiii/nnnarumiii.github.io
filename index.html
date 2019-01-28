@@ -41,9 +41,31 @@
     <span></span>
   </div>
 
+  <article class="concept scroll">
+    <h2>なんかすごい を見える化したい。</h2>
+    <section>
+      <div>
+        <p><span class="blanc">”なんかお洒落 なんかアツい なんかセンスを感じる"</span> <span class="blanc">そんなものを見つけて、掘り下げることが幼い頃から大好きです。</span></p>
+      </div>
+
+      <div>
+        <p><span class="blanc">突き刺さるものに、仕事を通して関わりたくて、</span><span class="blanc">なんなら作り出す側に立ちたくて、<span class="blanc">自分にしかない感性で戦っていきたくて</span><span
+              class="blanc">いまWebの勉強をしています。</span></p>
+      </div>
+
+      <div>
+        <p><span class="blanc">Webは目的ではなく手段だと思っています。</span><span class="blanc">人を動かすものは、綿密な計算の上で出来ていると信じています。</span></p>
+      </div>
+      <div>
+        <p><span class="blanc">コーディングはパズルを組み立てるような感覚で、</span><span class="blanc">モノ作りをしていると感じる瞬間が、心から楽しいと思えます。</span><span
+            class="blanc">やっとそんなものに出会えたのだから、</span><span class="blanc">自分の仕事にしたいと、本気で思ってます。</span></p>
+      </div>
+    </section>
+  </article>
+
   <article class="profile">
     <h2 class="hide">Profile</h2>
-    <section class="scroll">
+    <section>
       <div class="contentProfile">
         <h2>Narumi Wakabayashi</h2>
         <p>Since : 1994 / 04 / 06</p>
@@ -51,20 +73,25 @@
         <p>Gender : man</p>
         <p>Age : 24</p>
 
-        <div class="smallText">
-          <p>WEB関係の勉強・お仕事を始めて一年。<br>スキルアップを目指して転職活動中です。</p>
+        <!-- <div class="smallText">
+          <p>WEB関係の勉強・お仕事を始めて一年。<br>フロントエンドエンジニアを目指して転職活動中です。</p>
 
           <p>Webを通して世界観や個性を表現するため、<br>論理的にデザインのできるクリエイターを目指しています。</p>
-        </div>
+        </div> -->
       </div>
-
   </article>
+
+  <div class="nextPage">
+    <p>Next Page is...
+      <a href="about.html">About<span class="nextPageSubtitle">私について</span></a>
+    </p>
+  </div>
 
   <footer>
     <nav class="footerNav">
       <div>
         <ul>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Top</a></li>
           <li><a href="skills.html">Skills</a></li>
           <li><a href="works.html">Works</a></li>
         </ul>
@@ -86,7 +113,6 @@
     $('.arrow').on('click', function () {
       $('html, body').animate({ scrollTop: mainContentScrollTop }, 500);
     });
-
   </script>
 
 </body>

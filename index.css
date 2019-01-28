@@ -22,7 +22,7 @@
   font-weight: bold;
   font-family: 'Bad Script', arial;
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
   /* ================= /トップイメージ ================= */
@@ -30,7 +30,7 @@
   /* 矢印 */
 .arrow{
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     left: 20%;
     width: 30px;
     height: 60px;
@@ -70,13 +70,36 @@
     transform: translateY(0);
   }
   50%{
-    transform: translateY(25px);    
+    transform: translateY(10px);
   }
   100%{
     transform: translateY(0);
   }
 }
 /* /矢印 */
+
+.concept{
+  max-width: 800px;
+  margin: 0em auto ;
+  /* border: #111 solid 1px; */
+  padding: 8em 2em 3em 2em;
+}
+
+.concept h2{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.concept p{
+  line-height: 2.6;
+  letter-spacing: 0.1em;
+  margin-top: 1.3em;
+  font-size: 1.12em;
+}
+
+.blanc{
+  display: block;
+}
 
 
 .profile section{
@@ -108,16 +131,8 @@
 .contentProfile p{
   font-weight: bold;
   font-size: 1.12em;
-  line-height: 2
+  line-height: 2;
 }
-
-/* .contentProfile p:last-child{
-  font-weight: normal;
-  font-size: 0.86em;
-  margin-top: 2.5em;
-  margin-bottom: 0;
-  text-decoration-line: underline;
-} */
 
  .smallText p{
   font-weight: normal;
@@ -158,12 +173,28 @@
     box-sizing: border-box;
   }
 
+  .concept{
+    max-width: 600px;
+  }
+  
+  .concept h2{
+    font-size: 1.25em;
+  }
+  
+  .concept p{
+    line-height: 2.6;
+    font-size: 0.875em;
+    letter-spacing: 0em;
+    margin-top: 1.3em;
+  }
+
+  .blanc{
+    display: inline;
+  }
+
   .contentProfile h2{
-    font-size: 1.5em;
-    display: inline-block;
     padding: 0.2em 0 0;
-    border-bottom: 0.15em dotted rgb(255, 90, 90);
-    line-height: 1.5
+    line-height: 1.5;
   }
 
   .contentProfile{
