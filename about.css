@@ -42,7 +42,7 @@
   }
   
   .box dd{
-    margin: 0 3em;
+    margin: 0 3em 0.7em 3em;
     font-size: 0.875em;
     /* border: #111 solid 1px; */
   }
