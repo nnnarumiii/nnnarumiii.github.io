@@ -42,7 +42,7 @@
   }
   
   .box dd{
-    margin: 0 3em 0.7em 3em;
+    margin: 0 3em 1.25em 3em;
     font-size: 0.875em;
     /* border: #111 solid 1px; */
   }
@@ -86,7 +86,7 @@
     }
     
     .likes dd{
-      margin-left: 1.5em
+      margin-left: 1.5em;
     }
   /* ---------- /likesのコンテンツ ---------- */
 
@@ -145,7 +145,7 @@
       }
 
       .box dd{
-        margin: 0 2em;
+        margin: 0 2em 1em 2em;
       }
 
       .likes{
@@ -183,5 +183,10 @@
         background-position: 60% 50%;
       }
     /* ---------- /画像 ---------- */
+
+    .subTitleSmall{
+      display: block;
+      margin-left: 0;
+    }
 
     }
