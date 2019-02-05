@@ -178,7 +178,11 @@
   }
   
   .concept h2{
-    font-size: 1.25em;
+    text-align: center;
+    line-height: 2.5
+  }
+  .enter{
+    display: block;
   }
   
   .concept p{
